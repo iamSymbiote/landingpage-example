@@ -1,0 +1,44 @@
+
+
+.news{
+    
+
+    &-punchline{
+        
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        margin-bottom: 86px;
+
+        .subject{
+            width: 291px;
+            height: 72px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+        }
+
+        .date{
+            margin-top: -10px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+        }
+        
+
+
+        &-box{
+            display: flex;
+            flex-direction: column;
+
+
+        }
+
+        img{
+            width: 290px;
+            height: 231px;
+        }
+
+    }
+}

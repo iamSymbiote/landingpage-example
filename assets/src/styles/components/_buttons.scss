@@ -1,0 +1,35 @@
+.buttons {
+    display: flex;
+    align-items: center;
+
+
+
+    &-login {
+        width: 111px;
+        height: 49px;
+        background: #F7F0E8;
+        border-radius: 10px;
+        border: medium none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    &-trial {
+        width: 179px;
+        height: 49px;
+        background: #14203E;
+        color: white;
+        border-radius: 10px;
+        border: medium none;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 23px;
+    }
+}
+
+
+

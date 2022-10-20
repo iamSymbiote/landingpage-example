@@ -1,0 +1,51 @@
+{
+  "name": "uid-landing",
+  "version": "1.0.0",
+  "description": "landing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "watch": "webpack --watch --mode development ",
+    "start": "nodemon -w webpack.config.js -x webpack-dev-server -- --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamSymbiote/uid-landing.git"
+  },
+  "author": "burak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamSymbiote/uid-landing/issues"
+  },
+  "homepage": "https://github.com/iamSymbiote/uid-landing#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "autoprefixer": "^9.8.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.1",
+    "iconfont-plugin-webpack": "^1.1.4",
+    "css-loader": "^3.5.3",
+    "cssnano": "^4.1.10",
+    "file-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "nodemon": "^2.0.4",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-fix-style-only-entries": "^0.5.0"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "webpack-merge": "^4.2.2"
+  }
+}
+
+
