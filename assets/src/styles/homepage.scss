@@ -9,9 +9,14 @@
 
 //General Styles
 @import "./common/reset";
+@import "./common/fonts";
 @import "./common/common";
 
+// Example Layouts
+@import "./layouts/homepage";
 
 // example component
-@import "./components/index";
+@import "./components/buttons";
 @import "./components/header";
+@import "./components/punchline";
+@import "./components/news";

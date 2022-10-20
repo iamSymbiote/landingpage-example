@@ -2,25 +2,23 @@
 
 .news{
     
+    h3 {
+
+    }
 
     &-punchline{
-        
+        $self: '.punchline';
         display: flex;
-        justify-content: space-evenly;
         margin-top: 50px;
         margin-bottom: 86px;
+        justify-content: space-evenly;
 
         .subject{
-            width: 291px;
-            height: 72px;
-            font-style: normal;
             font-weight: 700;
             font-size: 15px;
         }
 
-        .date{
-            margin-top: -10px;
-            font-style: normal;
+        .date {
             font-weight: 400;
             font-size: 12px;
             line-height: 18px;
@@ -28,16 +26,21 @@
         
 
 
-        &-box{
+        #{ $self }-box {
+            width: 290px;
+            height: 231px;
             display: flex;
+            margin-right: 30px;
             flex-direction: column;
 
-
+            &:last-child {
+                margin-right: 0;
+            }
         }
 
         img{
-            width: 290px;
-            height: 231px;
+            width: 100%;
+            max-width: 100%;
         }
 
     }
