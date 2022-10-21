@@ -1,0 +1,116 @@
+.footer{
+    background-color: #1e2641;
+    padding: 70px 0 75px 0;
+    .container{
+        display: flex;
+    }
+    &-col{
+        width: 60%;
+        flex-shrink: 1;
+
+    }
+    &-nav{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        width: 100%;
+        // color: white;
+    }
+    .footer-nav-menu{
+        h4{
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: 0.17em;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        
+        ul a {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 35px;
+            color: white;
+
+        }
+        
+    }
+}
+
+.footer-col{
+    .footer-row{
+        p{
+            font-family: 'IBM Plex Sans';
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 35px;
+            color: white;
+        }
+        input{
+            width: 224px;
+            height: 51px;
+            background: #1E2641;
+            border: 2px solid #3A456A;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        ::placeholder{
+            font-family: 'IBM Plex Sans';
+            font-weight: 500;
+            font-size: 16px;
+            color: #FFFFFF;
+            padding: 15px 126px 15px 15px;
+        }
+        .buttons-send{
+            width: 131px;
+            height: 51px;
+            background: #F1F2FC;
+            border-radius: 5px;
+            font-family: 'IBM Plex Sans';
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 21px;
+            color: #1E2641;
+        }
+
+        .social-links {
+            display: flex;
+            padding: 20px;
+            font-size: 30px;
+            width: 46px;
+            text-align: center;
+            margin: 5px -21px;
+            border-radius: 5px;
+
+            .facebook {
+                color: white;
+                width: 46px;
+                height: 46px;
+                background: #4C6EA7;
+                border-radius: 3px;
+                padding: 8px;
+                margin-right: 10px;
+            }
+            .twitter {
+                color: white;
+                width: 46px;
+                height: 46px;
+                background: #4297C4;
+                border-radius: 3px;
+                padding: 8px;
+                margin-right: 10px;
+            }
+            .instagram {
+                color: white;
+                width: 46px;
+                height: 46px;
+                background: linear-gradient(46.93deg, #FFB73D 0%, #C47067 45.55%, #9D23E4 96.85%);
+                border-radius: 3px;
+                padding: 8px;
+            }
+        }
+    }
+}
